@@ -1,3 +1,7 @@
 tasks:
   - name: Installing Ionic 5 & Cordova
+<<<<<<< HEAD
     command: npm install -g @ionic/cli cordova && npm i -g cordova && ionic cordova plugin add cordova-sqlite-storage && npm install @ionic/storage
+=======
+    command: npm install -g @ionic/cli cordova && 
+>>>>>>> de761a79278461cee8807e7ff224a12fde88fe4c
