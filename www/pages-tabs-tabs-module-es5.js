@@ -21,7 +21,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<ion-tabs>\n  <ion-tab-bar  slot=\"bottom\">\n    <ion-tab-button  tab=\"episodes\">\n      <ion-icon  name=\"film\"></ion-icon>\n      <ion-label>Episodes</ion-label>\n    </ion-tab-button>\n    <ion-tab-button  tab=\"characters\">\n      <ion-icon  name=\"people\"></ion-icon>\n      <ion-label>Characters</ion-label>\n    </ion-tab-button>\n    <ion-tab-button  tab=\"quotes\">\n      <ion-icon  name=\"megaphone\"></ion-icon>\n      <ion-label>Quotes</ion-label>\n    </ion-tab-button>\n     <ion-tab-button  tab=\"deaths\">\n      <ion-icon  name=\"skull\"></ion-icon>\n      <ion-label>Deaths</ion-label>\n    </ion-tab-button>\n  </ion-tab-bar>\n  <ion-footer size=\"small\">\n  <ion-toolbar >\n    <ion-title class=\"devep\">Made by \n    <ion-icon  name=\"heart\"></ion-icon> \n  <!--  <ion-icon  name=\"boat-outline\"></ion-icon>-->\n    Tatiana Silva</ion-title>\n  </ion-toolbar>\n</ion-footer>\n\n</ion-tabs>\n";
+    __webpack_exports__["default"] = "<ion-tabs>\n  <ion-tab-bar  slot=\"bottom\">\n\n    <ion-tab-button  tab=\"episodes\">\n      <ion-icon  name=\"film\"></ion-icon>\n      <ion-label>Episodes</ion-label>\n    </ion-tab-button>\n  \n    <ion-tab-button  tab=\"characters\">\n      <ion-icon  name=\"people\"></ion-icon>\n      <ion-label>Characters</ion-label>\n    </ion-tab-button>\n  \n    <ion-tab-button  tab=\"quotes\">\n      <ion-icon  name=\"megaphone\"></ion-icon>\n      <ion-label>Quotes</ion-label>\n    </ion-tab-button>\n  \n    <ion-tab-button  tab=\"deaths\">\n      <ion-icon  name=\"skull\"></ion-icon>\n      <ion-label>Deaths</ion-label>\n    </ion-tab-button>\n  \n    <ion-tab-button  tab=\"camera\">\n      <ion-icon  name=\"camera\"></ion-icon>\n      <ion-label>Camera</ion-label>\n    </ion-tab-button>\n  \n  </ion-tab-bar>\n\n  <ion-footer size=\"small\">\n  <ion-toolbar >\n    <ion-title class=\"devep\">Made by \n    <ion-icon  name=\"heart\"></ion-icon> \n  <!--  <ion-icon  name=\"boat-outline\"></ion-icon>-->\n    Tatiana Silva</ion-title>\n  </ion-toolbar>\n</ion-footer>\n\n</ion-tabs>\n";
     /***/
   },
 
@@ -158,6 +158,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             /*! ../deaths/deaths.module */
             "./src/app/pages/deaths/deaths.module.ts")).then(function (m) {
               return m.DeathsPageModule;
+            });
+          }
+        }]
+      }, {
+        path: 'camera',
+        children: [{
+          path: '',
+          loadChildren: function loadChildren() {
+            return __webpack_require__.e(
+            /*! import() | camera-camera-module */
+            "camera-camera-module").then(__webpack_require__.bind(null,
+            /*! ../camera/camera.module */
+            "./src/app/pages/camera/camera.module.ts")).then(function (m) {
+              return m.CameraPageModule;
             });
           }
         }]
